@@ -1,0 +1,541 @@
+/* Basic Setup*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: rgb(0, 0, 0);
+  color: rgb(51, 51, 51);
+  font-family: "Lato", "Arial", "Sans-serif";
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+section {
+  padding: 80px 0;
+}
+/* Basic Setup*/
+
+.logo {
+  width: 100px;
+  float: left;
+}
+
+/*header*/
+
+header {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(image/1.jpg);
+
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 50px;
+}
+.main-nav li {
+  color: azure;
+  display: inline-block;
+  margin-left: 40px;
+  color: #fff;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px, 5px;
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #5ae6f8;
+}
+
+.first-text {
+  color: azure;
+  position: absolute;
+  width: 1000px;
+  font-size: 160%;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+/*Experience Section*/
+.formal-photo {
+  float: left;
+  width: 350px;
+  padding-right: 10px;
+  top: 50%;
+  left: 40%;
+  box-shadow: rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3);
+}
+.first-section {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+    url(image/TCS-a.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.experience {
+  font-size: 200%;
+  color: azure;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: 150px;
+  padding: 5px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.second-text {
+  font-size: 150%;
+  font-weight: 500;
+  float: top;
+  color: azure;
+  margin-top: 170px;
+  text-align: center;
+  position: static;
+}
+
+.company-link {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+}
+.link1 {
+  color: azure;
+}
+
+.company-link a:link,
+.company-link a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.company-link a:hover,
+.company-link a:active {
+  border-bottom: 2px solid #5ae6f8;
+}
+/*Experience Section*/
+
+/*Education*/
+
+.educationrow {
+  max-width: 1500px;
+}
+
+.texteducation {
+  font-size: 200%;
+  color: rgb(247, 88, 88);
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 150px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/*pg*/
+
+.pg-container {
+  margin-top: 10px;
+  padding: 5px;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(image/univ.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pg-text {
+  font-size: 150%;
+  font-weight: 500;
+  float: center;
+  color: azure;
+  margin-top: 170px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-right: 15%;
+}
+
+#univlink {
+  text-decoration: none;
+  margin-left: 120px;
+  float: center;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+#idcardlink {
+  text-decoration: none;
+  margin-left: 120px;
+  float: center;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+.pg-link a:link,
+.pg-link a:visited {
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.pg-link a:hover,
+.pg-link a:active {
+  border-bottom: 2px solid #5ae6f8;
+  color: rgb(247, 88, 88);
+}
+/*pg*/
+
+/*ug*/
+.ug-container {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(image/college.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 1200px;
+  margin: 25 auto;
+}
+
+.ug-text {
+  font-size: 150%;
+  font-weight: 500;
+  float: left;
+  color: azure;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: left;
+  padding-right: 15%;
+}
+
+#cerlink {
+  text-decoration: none;
+  text-align: center;
+  float: center;
+  font-size: 25px;
+  font-family: monospace;
+}
+.ug-link a:link,
+.ug-link a:visited {
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.ug-link a:hover,
+.ug-link a:active {
+  border-bottom: 2px solid #5ae6f8;
+  color: rgb(247, 88, 88);
+}
+/*ug*/
+/*school*/
+
+.school-container {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(image/school2.jpg);
+  background-size: cover;
+  max-width: 1000px;
+  margin: 25 auto;
+  background-attachment: fixed;
+}
+
+.school-text {
+  font-size: 150%;
+  font-weight: 500;
+  float: left;
+  color: azure;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: left;
+  padding-right: 15%;
+}
+/*school*/
+
+/*Certification*/
+
+.third-section {
+  padding: 5px 0;
+  margin-top: -5%;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(image/IMG_8405.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.textcertification {
+  font-size: 200%;
+  color: ivory;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 150px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.web-container {
+  float: Left;
+}
+.webdesignphoto {
+  padding: 5px;
+  margin-top: 20px;
+  width: 400px;
+}
+.web-text {
+  color: ivory;
+  font-style: oblique;
+  font-size: 120%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.laptop-container {
+  float: top;
+}
+.laptopphoto1 {
+  margin-left: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+.lap-text {
+  padding-left: 30%;
+  text-align: right;
+  color: ivory;
+  font-style: oblique;
+  font-size: 120%;
+  margin-top: 3%;
+}
+.mobile-container {
+  float: left;
+}
+.mobilephoto1 {
+  padding: 5px;
+  margin-top: 50px;
+  width: 400px;
+}
+.mobile-text {
+  color: ivory;
+  font-style: oblique;
+  font-size: 120%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.type-container {
+  float: top;
+}
+.typephoto1 {
+  margin-left: 23%;
+  padding: 10px;
+  margin-top: 50px;
+  width: 410px;
+}
+.type-text {
+  padding-left: 30%;
+  padding-right: 4%;
+  text-align: right;
+  color: ivory;
+  font-style: oblique;
+  font-size: 120%;
+  margin-top: 3%;
+}
+
+.Excel-container {
+  float: Center;
+}
+
+.Excelphoto1 {
+  margin-left: -7%;
+  padding: 5px;
+  margin-top: 50px;
+  width: 400px;
+}
+.Excel-text {
+  color: ivory;
+  text-align: center;
+  font-style: oblique;
+  font-size: 120%;
+  margin-top: 3%;
+}
+/*Certification*/
+
+/*knowledge*/
+
+.extra {
+  background-image: url(image/knowledgephoito.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 50%;
+  float: left;
+}
+.textin {
+  font-size: 200%;
+  color: ivory;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 150px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.marketing {
+  padding: 20px;
+  margin: 20px;
+}
+.martext {
+  float: left;
+  text-align: left;
+  color: ivory;
+}
+.marketingphoto {
+  margin-left: 4%;
+  margin-bottom: 2%;
+  width: 300px;
+  float: left;
+}
+.msoffice {
+  padding: 20px;
+  margin: 20px;
+}
+.mstext {
+  float: right;
+  text-align: right;
+  color: ivory;
+}
+.msofficephoto {
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  width: 300px;
+  float: right;
+}
+.ps {
+  padding: 20px;
+  margin: 20px;
+}
+.pstext {
+  float: left;
+  text-align: left;
+  color: ivory;
+}
+.photoshopphoto {
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  width: 180px;
+  float: left;
+}
+
+.Hobbie {
+  background-image: url(image/skill.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -85px;
+  height: 877px;
+
+  float: right;
+  max-width: 100%;
+}
+.headhobbie {
+  font-size: 200%;
+  color: ivory;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 150px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.Drawingphoto,
+.Dancingphoto,
+.curvingphoto {
+  margin-left: 50px;
+  width: 145px;
+}
+
+.hobbs ol {
+  padding: 10px;
+  margin: 25px;
+  margin-right: 325px;
+  margin-bottom: auto;
+}
+.hobbs p {
+  color: ivory;
+  float: top;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-bottom: -25px;
+}
+/*hobbies*/
+/*Personal Info*/
+
+.information {
+  font-size: 200%;
+  color: ivory;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 52%;
+  margin-right: 40%;
+  padding: 40px;
+}
+
+.Personal p {
+  color: ivory;
+  font-size: 150%;
+  margin: 20px;
+}
+.right {
+  float: right;
+  text-align: right;
+  padding-right: 250px;
+}
+.left {
+  padding-left: 250px;
+}
+/*Personal Info*/
+/*Footer*/
+.myfooter {
+  max-width: 1400px;
+  background-color: ivory;
+  font-weight: 600;
+}
+.declare {
+  text-align: center;
+  padding: 20px;
+}
+.call {
+  padding-left: 40px;
+}
+
+.mail {
+  float: right;
+  margin-top: -25px;
+  padding-right: 40px;
+}
